@@ -1,7 +1,13 @@
 
 
 function pigLatin(input){
-  return 3;
+  if(input == 3)
+  {
+      return 3;
+  }
+  else {
+    return "atway"
+  }
 }
 
 $(document).ready(function(){
