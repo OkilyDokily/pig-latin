@@ -1,5 +1,7 @@
+
+
 function pigLatin(input){
-  return "iway"
+  return 3;
 }
 
 $(document).ready(function(){
