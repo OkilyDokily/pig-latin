@@ -8,6 +8,12 @@ function pigLatin(input){
  if(vowels.includes(input[0])){
    return input + "way";
  }
+ if(!vowels.includes(input[0])){
+   var firstLetter = input[0];
+   var rest = input.slice(1);
+   return rest + firstLetter + "ay"  
+ }
+ 
 }
 
 $(document).ready(function(){
