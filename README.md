@@ -11,7 +11,8 @@ _A page demonstrates basic javascript and behavior driven development_
 _Page outputs pig latinized expressions based on user input_
 
 
-##Spec
+## Spec
+
 | Spec                                                                                                                               | Input             | Output                      |
 |------------------------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------------|
 | The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.                           | 3                 | 3                           |
