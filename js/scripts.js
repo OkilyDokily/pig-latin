@@ -1,8 +1,12 @@
 
 var alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+var vowels = ["a","e","i","o","u"];
 function pigLatin(input){
  if (!alphabet.includes(input)){
    return input;
+ }
+ if(vowels.includes(input)){
+   return input + "way";
  }
 }
 
