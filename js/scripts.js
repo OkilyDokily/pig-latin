@@ -1,13 +1,9 @@
 
-
+var alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 function pigLatin(input){
-  if(input == 3)
-  {
-      return 3;
-  }
-  else {
-    return "atway"
-  }
+ if (!alphabet.includes(input)){
+   return input;
+ }
 }
 
 $(document).ready(function(){
@@ -16,6 +12,5 @@ $(document).ready(function(){
     var input = $("#piglatin").val();
     var result = pigLatin(input);
     $("#result").text(result);
-  })
-
-})
+  });
+});
