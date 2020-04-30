@@ -13,9 +13,16 @@ function pigLatin(input){
         break;
       }
     }
+
+    if(consonants.join("") === "q" && input[1]==='u'){
+      consonants.push(['u']);
+    }
+    
+    if(consonants.join("") === "sq" && input[2]==='u'){
+      consonants.push(['u']);
+    }
     
     var rest =  input.slice(consonants.length);
-    
     return rest + consonants.join("") + "ay";  
   }
 
